@@ -132,6 +132,8 @@ public abstract class RxLazyFragment extends RxFragment {
     } else {
       isVisible = false;
       onInvisible();
+
+
     }
   }
 
