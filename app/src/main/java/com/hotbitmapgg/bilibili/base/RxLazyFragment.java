@@ -62,6 +62,14 @@ public abstract class RxLazyFragment extends RxFragment {
   @Override
   public void onResume() {
 
+
+
+
+
+
+
+
+
     super.onResume();
   }
 
