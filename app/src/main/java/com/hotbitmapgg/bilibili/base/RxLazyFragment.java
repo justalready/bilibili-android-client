@@ -77,6 +77,11 @@ public abstract class RxLazyFragment extends RxFragment {
   @Override
   public void onDestroyView() {
 
+
+
+
+
+
     super.onDestroyView();
     bind.unbind();
   }
