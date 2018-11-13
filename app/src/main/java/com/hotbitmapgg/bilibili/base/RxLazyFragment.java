@@ -90,6 +90,9 @@ public abstract class RxLazyFragment extends RxFragment {
   @Override
   public void onAttach(Activity activity) {
 
+
+
+    
     super.onAttach(activity);
     this.activity = (FragmentActivity) activity;
   }
@@ -137,6 +140,8 @@ public abstract class RxLazyFragment extends RxFragment {
     } else {
       isVisible = false;
       onInvisible();
+
+
     }
   }
 
